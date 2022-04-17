@@ -1,0 +1,24 @@
+{
+    "EnemyAgent": {
+        "checkpoints": [
+            {
+                "steps": 1110,
+                "file_path": "results\\AgentTest7\\EnemyAgent\\EnemyAgent-1110.onnx",
+                "reward": -1.266666720310847,
+                "creation_time": 1614449489.436924
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1110,
+            "file_path": "results\\AgentTest7\\EnemyAgent.onnx",
+            "reward": -1.266666720310847,
+            "creation_time": 1614449489.436924
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": -1
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1614094527",
+        "python_version": "3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Peti\\Documents\\GitHub\\Nyomod\\Nyomod1\\ml-agent-01\\Scripts\\mlagents-learn",
+        "mlagents_version": "0.23.0",
+        "mlagents_envs_version": "0.23.0",
+        "communication_protocol_version": "1.3.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1614094566"
+    },
+    "total": 39.0286894,
+    "count": 1,
+    "self": 0.007516200000004858,
+    "children": {
+        "run_training.setup": {
+            "total": 0.013051600000000052,
+            "count": 1,
+            "self": 0.013051600000000052
+        },
+        "TrainerController.start_learning": {
+            "total": 39.008121599999996,
+            "count": 1,
+            "self": 0.0008175999999977535,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 39.006335199999995,
+                    "count": 1,
+                    "self": 39.006335199999995
+                },
+                "trainer_threads": {
+                    "total": 1.0999999986438525e-06,
+                    "count": 1,
+                    "self": 1.0999999986438525e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0009677000000039016,
+                    "count": 1,
+                    "self": 0.0009677000000039016
+                }
+            }
+        }
+    }
+}

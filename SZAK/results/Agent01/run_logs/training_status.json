@@ -1,0 +1,24 @@
+{
+    "FirstAI": {
+        "checkpoints": [
+            {
+                "steps": 2021,
+                "file_path": "results\\Agent01\\FirstAI\\FirstAI-2021.onnx",
+                "reward": null,
+                "creation_time": 1614674107.6840632
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2021,
+            "file_path": "results\\Agent01\\FirstAI.onnx",
+            "reward": null,
+            "creation_time": 1614674107.6840632
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1+cu110",
+        "tensorflow_version": -1
+    }
+}
